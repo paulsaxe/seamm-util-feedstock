@@ -1,6 +1,6 @@
 {% set name = "seamm-util" %}
-{% set version = "2024.8.22" %}
-{% set sha256 = "f1b2053573df18df2e6af7d63539312ce9a164059c160e71c135f0dd02fedba7" %}
+{% set version = "2025.8.18" %}
+{% set sha256 = "ca69d159116963a5a25446f5fa87130064c7c96853fa9672b32cafc14e68f54c" %}
 
 
 package:
@@ -23,6 +23,7 @@ requirements:
     - setuptools
   run:
     - pint
+    - plotly
     - python >={{ python_min }}
     - requests
     - statsmodels
